@@ -13,6 +13,8 @@
 		83F69AAF2603854D00CAC7F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F69AAD2603854D00CAC7F3 /* Main.storyboard */; };
 		83F69AB12603854F00CAC7F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F69AB02603854F00CAC7F3 /* Assets.xcassets */; };
 		83F69AB42603854F00CAC7F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F69AB22603854F00CAC7F3 /* LaunchScreen.storyboard */; };
+		83F69ABD2603857500CAC7F3 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 83F69ABC2603857500CAC7F3 /* GoogLeNetPlaces.mlmodel */; };
+		83F69AC02603859600CAC7F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F69ABF2603859600CAC7F3 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		83F69AB02603854F00CAC7F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F69AB32603854F00CAC7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F69AB52603854F00CAC7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F69ABC2603857500CAC7F3 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		83F69ABF2603859600CAC7F3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		83F69AA62603854D00CAC7F3 /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				83F69ABF2603859600CAC7F3 /* Extensions.swift */,
+				83F69ABC2603857500CAC7F3 /* GoogLeNetPlaces.mlmodel */,
 				83F69AA72603854D00CAC7F3 /* AppDelegate.swift */,
 				83F69AA92603854D00CAC7F3 /* SceneDelegate.swift */,
 				83F69AAB2603854D00CAC7F3 /* ViewController.swift */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F69AC02603859600CAC7F3 /* Extensions.swift in Sources */,
 				83F69AAC2603854D00CAC7F3 /* ViewController.swift in Sources */,
 				83F69AA82603854D00CAC7F3 /* AppDelegate.swift in Sources */,
 				83F69AAA2603854D00CAC7F3 /* SceneDelegate.swift in Sources */,
+				83F69ABD2603857500CAC7F3 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
